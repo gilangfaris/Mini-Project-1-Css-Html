@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 400px;
+      }
+      label {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <label for="">Email:</label>
+      <input type="email" name="email" required placeholder="email adress" />
+      <label for="komentar">Komentar</label>
+      <textarea name="komentar" id="komentar" cols="30" rows="10"></textarea>
+      <select name="Hometown" id="Hometown">
+        <option value="Berlin">Berlin</option>
+        <option value="Munich">Munich</option>
+      </select>
+      <button>Kirim</button>
+      <a href="mailto:gilangfariss@gmail.com">Kirim Email</a>
+    </form>
+  </body>
+</html>
